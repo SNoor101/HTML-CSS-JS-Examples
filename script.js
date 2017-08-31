@@ -79,10 +79,10 @@ if (anotherNumber == 42) {
 // Class 3 Javascript Variable and Comparison Review
 
 // variable types
-var stringVar = "This is a string";
-var numVar = 42;
-var stringNum = "42";
-var booleanVar = true;
+// var stringVar = "This is a string";
+// var numVar = 42;
+// var stringNum = "42";
+// var booleanVar = true;
 
 /*
 // comparisons
