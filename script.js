@@ -7,14 +7,12 @@
 // Class 2 Javascript Introduction
 
 // let's do some simple math
-/*
+
+/* 
+
 var number = 18 + 22;
 console.log(number);
 
-
-confirm("This is the best website ever!");
-
-prompt("Why are we here?");
 
 var anotherNumber = 42;
 console.log(anotherNumber);
@@ -26,7 +24,7 @@ console.log(aString);
 console.log(aString.length);
 
 // true or false?
-var isThisTrue = aString.length < 6;
+var isThisTrue = aString.length < 22;
 console.log(isThisTrue);
 
 
@@ -48,6 +46,8 @@ console.log(isThisTrue);
 isThisTrue = aString.length >= 42;
 console.log(isThisTrue);
 
+
+
 // completely equal to
 isThisTrue = anotherNumber === 42;
 console.log("completely equal to", isThisTrue);
@@ -56,9 +56,11 @@ console.log("completely equal to", isThisTrue);
 isThisTrue = aString !== "This is a string.";
 //console.log(isThisTrue);
 
-// basic if statements
 
-if (anotherNumber !== 42) {
+
+// basic if statements
+console.log(anotherNumber);
+if (anotherNumber === 42) {
   // do this
   console.log('do this');
 } else {
@@ -66,25 +68,35 @@ if (anotherNumber !== 42) {
   console.log('do that');
 }
 
+
+
 // if you don't want to do anything if the if statement is true, then you can leave the else off
 
 if (anotherNumber == 42) {
   // do this
   console.log('yea!');
+} else if (anotherNumber == 32) {
+
 }
 
 */
 
 
+
+
+
+
+/* 
+
 // Class 3 Javascript Variable and Comparison Review
 
 // variable types
-// var stringVar = "This is a string";
-// var numVar = 42;
-// var stringNum = "42";
-// var booleanVar = true;
+var stringVar = "This is a string";
+var numVar = 42;
+var stringNum = "42";
+var booleanVar = true;
 
-/*
+
 // comparisons
 var a = 23;
 var b = 18;
@@ -174,15 +186,26 @@ for (var i = 1; i < 10; i++) {
 }
 console.log(n);
 
+
+
 // arrays
 var firstArray = [12, 34, 56, "cat", "dog", "fish"];
 console.log(firstArray[0]);
 console.log(firstArray[4]);
 
+
+
 // for loop through an array
 for (var i = 0; i < firstArray.length; i++) {
 	console.log("Array item number", i, firstArray[i]);
 }
+
+for (var i = 0; i < array.length; i++) {
+	var element = array[i];
+	
+}
+
+
 
 // while loops 
 var cardType = ["ace", "king", "queen", "jack"];
@@ -239,11 +262,9 @@ drinksIHave.beer = "Abita Amber";
 drinksIHave.wine = "Cabernet";
 console.log(drinksIHave.beer);
 
+
+
+
 */
-
-
-
-
-
 
 

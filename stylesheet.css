@@ -134,3 +134,12 @@ th {
   font-variant: small-caps;
   color: #ffffff;
 }
+
+
+.home {
+  background-color: #ffffff;
+}
+
+.home:hover {
+  background-color: #cc0323;
+}
